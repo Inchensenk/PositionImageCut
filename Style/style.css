@@ -7,14 +7,10 @@
 .tiles {
   display: flex;
   justify-content: center;
-
   flex-wrap: wrap;
   gap: 10px;
 }
 
-/****************************************
-*****************Truck*********************
-********************************************/
 .tile {
   height: 140px;
   width: 380px;
@@ -25,7 +21,8 @@
   border-radius: 10px;
   background-color: #f4f9fe;
 }
-.item-text {
+
+.tile-item-text {
   position: absolute;
   top: -5px;
   left: 20px;
@@ -34,73 +31,38 @@
   font-size: 17px;
   line-height: 24px;
 }
-.item-img-truck {
+
+.tile-item-img {
   position: absolute;
   bottom: 0;
   right: -30px;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.img-truck {
   background-image: url(/IMG/Truck.png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
   background-size: 150px;
-  width: 200px;
-  height: 200px;
 }
-/****************************************
-*****************Pills*********************
-********************************************/
 
-.item-img-pills {
-  position: absolute;
-  bottom: 0;
-  right: -30px;
+.img-pills {
   background-image: url(/IMG/Pills.png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
   background-size: 250px;
-  width: 200px;
-  height: 200px;
 }
 
-/****************************************
-*****************Vegetables*********************
-********************************************/
-.item-img-vegetables {
-  position: absolute;
-  bottom: 0;
-  right: -30px;
+.img-vegetables {
   background-image: url(/IMG/Vegetables.png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
   background-size: 190px;
-  width: 200px;
-  height: 200px;
-}
-/****************************************
-*****************Tools*********************
-********************************************/
-.item-img-tools {
-  position: absolute;
-  bottom: 0;
-  right: -30px;
-  background-image: url(/IMG/Tools.png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
-  background-size: 170px;
-  width: 200px;
-  height: 200px;
 }
 
-/****************************************
-*****************FuturisticTruck*********************
-********************************************/
-.item-img-futuristicTruck {
-  position: absolute;
-  bottom: 0;
-  right: -30px;
+.img-tools {
+  background-image: url(/IMG/Tools.png);
+  background-size: 170px;
+}
+
+.img-futuristicTruck {
   background-image: url(/IMG/FuturisticTruck.png);
-  background-repeat: no-repeat;
-  background-position: 100% 100%;
   background-size: 150px;
-  width: 250px;
-  height: 250px;
 }
